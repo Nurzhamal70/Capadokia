@@ -1,0 +1,58 @@
+.cont {
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: Gilroy;
+    color: rgb(0, 0, 0);
+}
+
+.cont::before {
+    content: "";
+    width: 42%;
+    height: 2px;
+    background-color: rgb(190, 190, 190);
+    position: absolute;
+    left: 0px;
+    top: 45%;
+}
+
+.cont::after {
+    content: "";
+    width: 42%;
+    height: 2px;
+    background-color: rgb(190, 190, 190);
+    position: absolute;
+    right: 0px;
+    top: 45%;
+}
+
+.section_photos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 61px;
+    flex-wrap: wrap;
+}
+
+.serv {
+    flex: 0 1 30%;
+    margin-top: 5px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.serv img {
+    width: 100%;
+}
+
+.serv p {
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Montserrat';
+    bottom: 50px;
+    left: 10px;
+    position: absolute;
+    color: #FFFFFF;
+}

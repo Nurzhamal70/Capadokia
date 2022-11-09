@@ -1,0 +1,427 @@
+@import url('http://fonts.cdnfonts.com/css/balqis');
+
+.header {
+    background: url(../img/cappadocia.jpg) center/ cover no-repeat;
+    /* width: 100%; */
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+}
+
+.menu {
+    height: 28px;
+
+
+}
+
+
+.nav-link {
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration-line: none;
+    color: #000000;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+
+.title_name h1 {
+    font-family: 'Balqis';
+    font-weight: 400;
+    font-size: 220px;
+    line-height: 150px;
+    margin-top: 130px;
+    text-align: center;
+
+    color: #000000;
+}
+
+
+.title_name p {
+    position: relative;
+    left: 50%;
+    font-family: 'Roboto Condensed';
+    font-style: italic;
+    font-size: 50px;
+    color: #000000;
+}
+
+.text-dark {
+    text-decoration: none;
+}
+
+.title_name1 h2 {
+    font-family: 'Balqis';
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 50px;
+    margin-top: 10%;
+    margin-left: 10%;
+    color: #E2AB3F;
+}
+
+
+.title_name1 p {
+    position: relative;
+    top: 148%;
+    left: 22%;
+    font-family: 'Roboto Condensed';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 24px;
+    color: #000000;
+
+}
+
+.block_1 {
+    float: left;
+    height: 750px;
+    margin-top: 50px;
+    width: 100%;
+}
+
+
+.block_1_text {
+    float: end;
+    margin-top: -35%;
+    margin-left: 800px;
+    margin-right: 200px;
+    line-height: 22px;
+}
+
+.block_1_text h3 {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+.title_name2 h4 {
+    font-family: 'Balqis';
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 50px;
+    margin-top: 10%;
+    margin-left: 7%;
+    color: #E2AB3F;
+}
+
+.title_name2 p {
+    position: relative;
+    top: 148%;
+    left: 24%;
+    font-family: 'Roboto Condensed';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 24px;
+    color: #000000;
+}
+
+.btn {
+    width: 280px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: 300px;
+    border: 2px solid #E2AB3F;
+    font-family: 'Roboto Consended';
+    margin-top: -5%;
+}
+
+
+.block_2 {
+    float: right;
+    margin-left: 200px;
+    margin-top: -10%;
+    width: fit-content;
+}
+
+.block_2_text {
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.block_2_text h5 {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+
+}
+
+.title_name3 h6 {
+    font-family: 'Balqis';
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 50px;
+    margin-top: 10%;
+    margin-left: 7%;
+    color: #E2AB3F;
+}
+
+.title_name3 p {
+    position: relative;
+    left: 15%;
+    font-family: 'Roboto Condensed';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 24px;
+    color: #000000;
+}
+
+.hotel_photos .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hotel_info_logo {
+    flex: 0 1 45%;
+}
+
+.hotel_info_logo img {
+    width: 100%;
+}
+
+.hotel__info {
+    flex: 0 1 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.block_3_photos {
+    /* padding-top: 70px; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.block_3_photos img {
+    margin-top: 50px;
+}
+
+
+.title_name4 h6 {
+    font-family: 'Balqis';
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 50px;
+    margin-top: 10%;
+    margin-left: 7%;
+    color: #E2AB3F;
+}
+
+.title_name4 p {
+    position: relative;
+    left: 15%;
+    font-family: 'Roboto Condense0d';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 24px;
+    color: #000000;
+}
+
+.container .block_4_price {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 100px;
+
+
+}
+
+
+.third_block {
+    position: relative;
+}
+
+.third_block img {
+    position: absolute;
+}
+
+.third_block img:nth-child(1) {
+    top: 65%;
+    left: 20%;
+
+}
+
+.third_block img:nth-child(2) {
+    top: -30%;
+    left: 40%;
+
+}
+
+.third_block img:nth-child(3) {
+    top: 20%;
+    left: 0;
+
+}
+
+.main_title {
+    position: relative;
+    top: 200px;
+}
+
+.title_name5 h6 {
+    font-family: 'Balqis';
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 50px;
+    margin-top: 8%;
+    margin-left: 7%;
+    color: #E2AB3F;
+}
+
+.title_name5 p {
+    position: relative;
+    left: 15%;
+    font-family: 'Roboto Condensed';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 24px;
+    color: #000000;
+}
+
+
+.title_name6 h6 {
+    font-family: 'Balqis';
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 50px;
+    margin-top: 2%;
+    margin-left: 20%;
+    color: #E2AB3F;
+}
+
+.title_name6 p {
+    position: relative;
+    left: 25%;
+    font-family: 'Roboto Condensed';
+    font-weight: 300;
+    font-size: 24px;
+    color: #000000;
+}
+
+.form1 {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 200px;
+    flex-direction: column;
+    margin-left: 130px;
+
+}
+
+.block_5_form p {
+    position: absolute;
+    margin-top: -7%;
+    left: 10%;
+    font-family: 'Roboto Condensed';
+    font-size: 24px;
+    font-weight: 400px;
+
+
+}
+
+.form1 input {
+    display: flex;
+    width: 383px;
+    background: #FFFFFF;
+    border: 1px solid #E2AB3F;
+    padding-left: 30px;
+    padding: 13px;
+    top: 50%;
+
+}
+
+.block_5_form button {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    width: 280px;
+    font-size: 24px;
+    background: #FFFFFF;
+    border: 1px solid #E2AB3F;
+    margin-left: 50px;
+
+}
+
+.happy_girl {
+    position: absolute;
+    top: -15%;
+    display: flex;
+    margin-left: 55%;
+}
+
+footer {
+    background: url(../img/girlsback.png) center/ cover no-repeat;
+    height: 100vh;
+}
+
+.block_6 {
+    width: 100%;
+    margin-top: 40%;
+}
+
+.last_page img {
+    position: absolute;
+    width: 270px;
+    height: 400px;
+    left: 380px;
+    margin-top: 3%;
+}
+
+.title_name6 h2 {
+    font-family: 'Balqis';
+    font-weight: 400;
+    font-size: 70px;
+    margin-top: 5%;
+    margin-left: 24%;
+    color: #E2AB3F;
+    position: absolute;
+}
+
+.last_page .number {
+    width: 29px;
+    height: 30px;
+    margin-top: 12%;
+    margin-left: 20px;
+}
+
+.last_page .letter {
+    width: 30px;
+    height: 22px;
+    margin-top: 15%;
+    margin-left: 25px;
+}
+
+
+.contacts .ibg__icons {
+    margin-left: 465px;
+    position: absolute;
+    margin-top: 19%;
+
+}
+
+.air_cont .contact_info {
+    position: absolute;
+    margin-top: 180px;
+    left: 440px;
+    font-size: 14px;
+}
+
+.title_name7 h6 {
+    font-family: 'Balqis';
+    font-weight: 400;
+    font-size: 70px;
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 750px;
+    color: #000000;
+
+}
